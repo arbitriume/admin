@@ -13,7 +13,7 @@ import List, {ListItem, ListItemIcon, ListItemText} from 'material-ui/List';
 
 import {AccountCircle, Menu, Home} from 'material-ui-icons';
 
-export default class App extends React.Component {
+export default class Braumeister extends React.Component {
     constructor() {
         super();
         this.toggleMenuState = this.toggleMenuState.bind(this);
